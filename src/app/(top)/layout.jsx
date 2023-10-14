@@ -6,8 +6,7 @@ export default function TopLayout({ children }) {
     <>
       <HeaderContent />
       <main>{children}</main>
-      <FooterContent/>
-
+      <FooterContent />
     </>
   );
 }
